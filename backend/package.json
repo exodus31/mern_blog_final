@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "1st MERN stack (Blog)",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "funding": "^1.0.9",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.19",
+    "validator": "^13.7.0"
+  }
+}

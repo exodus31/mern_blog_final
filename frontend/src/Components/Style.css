@@ -1,0 +1,93 @@
+body{
+    background-color: #F2D388;
+    font-family: 'Poppins';
+}
+.navbar{
+    font-family: 'Poppins';
+    box-shadow: 1px 1px 12px 1px black;    
+}
+.nav-img{
+    width: 100px;
+    height: auto;
+    padding-right: 10%;    
+}
+.nav-link{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+}
+.nav-item{
+    margin-left: 15px;
+}
+.nav-link:hover{
+    background-color: #512d3a;
+    border-radius: 5px;
+    color: rgb(214, 214, 214);
+}
+.btnnav2{
+    float:right;    
+    color: white;    
+    background-color: inherit;
+    border: none;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+.btnnav3{
+    float:right;    
+    color: white;    
+    background-color: inherit;
+    border: none;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;    
+    cursor: default;
+}
+.btnnav3:hover{
+    cursor: default;
+}
+.btnnav2:hover{    
+    border-radius: 5px;
+    background-color: #512d3a;    
+}   
+button:focus { outline: none; }
+
+.btndel{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.card1{    
+    background-color: #C98474;
+    padding: 0 !important;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 2px 2px 10px black;
+}
+
+.card-horizontal{
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-horizontal{
+    overflow-x: auto;
+}
+.img-card{    
+    width:300px;
+    height: auto;
+    position: relative;
+    left:-0.3%;
+    border-radius: 5px;
+    top:-0.5%;
+}
+@media(max-width<992px){
+    .nav-link{
+        margin-left: 10px;
+    }    
+}
